@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top_image {
+    background-image: url('../images/faculty_top_img.jpg');
+    height: 450px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 10%;
+    text-align: center;
+    
+}
+.top_image h1{
+    font-size: 4rem;
+    text-align: center;
+    color:#fff;
+    text-shadow: 2px 2px #000;
+    padding-top: 5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+
+}
+.top_image span{
+    text-shadow: 1px 1px #000;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 3rem;
+}
+
+.faculty_about {
+    background-color: rgb(255, 237, 219);
+    /* color: rgb(238, 118, 5); */
+}
+
+.heading_faculty_about {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    color: rgb(238, 118, 5);
+}
+
+.text_faculty_about p {
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.clip_arts {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.common_css {
+    position: relative;
+    margin: 15px;
+}
+.clip_arts .img_cont img{
+    width: auto;
+    height: 250px;
+}
+.clip_arts .img_cont .caption{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.clip_arts .img_cont .caption_topic{
+    margin-top: -15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+}
